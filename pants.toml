@@ -4,6 +4,9 @@ pants_version = "2.16.0"
 backend_packages = [
   "pants.backend.python",
   "pants.backend.python.lint.black",
+  "pants.backend.python.typecheck.mypy",
+  "pants.backend.python.lint.isort",
+  "pants.backend.python.lint.flake8",
 ]
 
 [source]
@@ -11,3 +14,6 @@ root_patterns = ["/"]
 
 [python]
 interpreter_constraints = ["==3.9.*"]
+
+[flake8]
+args = ["--output-file=reports/report.txt"]

@@ -1,4 +1,4 @@
-from main import add_bang
+from client.utils import add_bang
 
 
 def test_bang():

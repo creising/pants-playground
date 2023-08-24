@@ -1,8 +1,11 @@
 import time
+
 import zmq
+
 
 def log_it(input):
     print(input, flush=True)
+
 
 log_it("Starting server!")
 context = zmq.Context()

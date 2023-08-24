@@ -1,8 +1,14 @@
-from typing import Union
-from fastapi import FastAPI
-import zmq
 import logging
-from logger import log_it
+
+import zmq
+from fastapi import FastAPI
+
+# from logger import log_it
+
+
+def log_it(x):
+    print(x)
+
 
 log = logging.getLogger("my-api")
 
@@ -26,12 +32,3 @@ def read_root():
     message = socket.recv()
     log_it("Got message")
     return {"message": message}
-
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
-
-
-def add_bang(input):
-    return f"{input}!"

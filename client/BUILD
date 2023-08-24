@@ -6,4 +6,5 @@ python_requirements(
 
 python_tests(
     name="tests",
+    skip_mypy=True
 )
