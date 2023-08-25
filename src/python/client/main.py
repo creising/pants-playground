@@ -2,6 +2,7 @@ import logging
 
 import zmq
 from fastapi import FastAPI
+import uvicorn
 
 # from logger import log_it
 
@@ -11,9 +12,6 @@ def log_it(x):
 
 
 log = logging.getLogger("my-api")
-
-# def log_it(input):
-#     print(input, flush=True)
 
 context = zmq.Context()
 log_it("Connecting to hello world server…")
@@ -32,3 +30,6 @@ def read_root():
     message = socket.recv()
     log_it("Got message")
     return {"message": message}
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=5000, log_level="info")
