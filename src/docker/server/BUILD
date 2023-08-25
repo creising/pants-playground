@@ -1,5 +1,4 @@
 
 docker_image(
-  name="server-container",
-  restartable=True
+  name="server-container"
 )

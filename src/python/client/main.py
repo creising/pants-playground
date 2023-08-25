@@ -11,7 +11,7 @@ log = logging.getLogger("my-api")
 context = zmq.Context()
 log_it("Connecting to hello world server…")
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://python-fun-server-app-1:5555")
+socket.connect("tcp://server-container:5555")
 log_it("Connected to socket")
 
 app = FastAPI()
@@ -26,6 +26,11 @@ def read_root():
     log_it("Got message")
     return {"message": message}
 
+@app.get("/test")
+def read_root():
+    log_it("Calling type check")
+    message = "It worked!"
+    return {"message": message}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=5000, log_level="info")
+    uvicorn.run(app, host="0.0.0.0", port=8080, log_level="info")

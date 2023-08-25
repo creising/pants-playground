@@ -7,7 +7,7 @@ python_tests(
 
 pex_binary(
   name="binary",
-  entry_point="client.main",
+  entry_point="src.python.client.main",
 )
 
 pex_binary(
