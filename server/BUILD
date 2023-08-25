@@ -15,22 +15,21 @@ python_sources()
 # )
 
 # Define a docker image that can be used to ship our Python env truly everywhere
-docker_image(name="container")
+docker_image(name="server-container")
 # in a newer version this will be build_platform=["linux/amd64"]
 
+file(name="platforms", source="./platforms.json")
 
 pex_binary(
   name="binary",
   entry_point="server.main:main",
   layout = "packed",
   execution_mode = "venv",
-  # complete_platforms = [
-  #     "cp311-cp311-manylinux_2_31_aarch64"
-  # ],
-  platforms=[
-    'current',
-    'linux-x86_64-cp-3.7.5-m',
-  ]
+  complete_platforms = [":platforms"]
+  # platforms=[
+  #   'current',
+  #   'linux-x86_64-cp-3.7.5-m',
+  # ]
   # shebang="#!/usr/bin/env python3",
   # Enable hot re-load
   # restartable=True

@@ -26,13 +26,13 @@ args = ["--output-file=reports/report.txt"]
 [docker]
 env_vars = ["HOME", "USER", "PATH", "GIT_COMMIT"]
 
-[dockerfile-parser]
-lockfile = "3rdparty/docker/default.lock"
-interpreter_constraints = ["==3.11.4"]
+# [dockerfile-parser]
+# lockfile = "3rdparty/docker/default.lock"
+# interpreter_constraints = ["==3.11.4"]
 
 
-[pex]
-executable_search_paths = ["<PYENV>"]
+# [pex]
+# executable_search_paths = ["<PYENV>"]
 
 # [pex_binaries]
 

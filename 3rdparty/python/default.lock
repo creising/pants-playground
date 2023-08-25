@@ -11,7 +11,7 @@
 //   "generated_with_requirements": [
 //     "fastapi",
 //     "pytest",
-//     "pyzmq==25.1.0",
+//     "pyzmq==25.1.1",
 //     "typing",
 //     "uvicorn"
 //   ],
@@ -441,53 +441,53 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "442d3efc77ca4d35bee3547a8e08e8d4bb88dadb54a8377014938ba98d2e074a",
-              "url": "https://files.pythonhosted.org/packages/04/15/b8ab292f0b74e0440547185fb67167c87454a2b3be429d64de569f7142a2/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_x86_64.whl"
+              "hash": "c2910967e6ab16bf6fbeb1f771c89a7050947221ae12a5b0b60f3bca2ee19bca",
+              "url": "https://files.pythonhosted.org/packages/12/0f/1dd9a1b50b8069828787f86c011fe2defcb841b4973c61d96dee4839f552/pyzmq-25.1.1-cp311-cp311-musllinux_1_1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "4a983c8694667fd76d793ada77fd36c8317e76aa66eec75be2653cef2ea72883",
-              "url": "https://files.pythonhosted.org/packages/26/bb/80535157e8811095901f98688839092afb6dcaf2ff154aa8fa2e575f540d/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "90f26dc6d5f241ba358bef79be9ce06de58d477ca8485e3291675436d3827cf8",
+              "url": "https://files.pythonhosted.org/packages/2b/e6/9827512965b2b584b2c55da955b4f0a5636587b9c714d4cf75f527f9c860/pyzmq-25.1.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "69511d604368f3dc58d4be1b0bad99b61ee92b44afe1cd9b7bd8c5e34ea8248a",
-              "url": "https://files.pythonhosted.org/packages/5a/b6/3c2ddd09aa24352e4f6aade53e9b9a1816c0774c844f11b1a2f508ddc0be/pyzmq-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl"
+              "hash": "259c22485b71abacdfa8bf79720cd7bcf4b9d128b30ea554f01ae71fdbfdaa23",
+              "url": "https://files.pythonhosted.org/packages/3f/7c/69d31a75a3fe9bbab349de7935badac61396f22baf4ab53179a8d940d58e/pyzmq-25.1.1.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "80c41023465d36280e801564a69cbfce8ae85ff79b080e1913f6e90481fb8957",
-              "url": "https://files.pythonhosted.org/packages/64/9c/2b2614b0b86ff703b3a33ea5e044923bd7d100adc8c829d579a9b71ea9e7/pyzmq-25.1.0.tar.gz"
+              "hash": "2f957ce63d13c28730f7fd6b72333814221c84ca2421298f66e5143f81c9f91f",
+              "url": "https://files.pythonhosted.org/packages/46/d4/76a24bb79a2001082517499b311ec4960636bf5d4cbd619fef68f8ca8bce/pyzmq-25.1.1-cp311-cp311-manylinux_2_28_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "cad9545f5801a125f162d09ec9b724b7ad9b6440151b89645241d0120e119dcc",
-              "url": "https://files.pythonhosted.org/packages/66/f5/15db4c297957f049cd4dcd35eb7fbe9098a72489e0abdb289c529d7327cc/pyzmq-25.1.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+              "hash": "7f7e58effd14b641c5e4dec8c7dab02fb67a13df90329e61c869b9cc607ef752",
+              "url": "https://files.pythonhosted.org/packages/69/2d/c438d086697b38ce01fa4004e923a4dc899c5b14919a7b848a3cfa17dca5/pyzmq-25.1.1-cp311-cp311-musllinux_1_1_i686.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "332616f95eb400492103ab9d542b69d5f0ff628b23129a4bc0a2fd48da6e4e0b",
-              "url": "https://files.pythonhosted.org/packages/7c/65/bccec1eae7c0e089d90648f350e6c2ff40ccb8c6d1b929548f4cd304b1f7/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl"
+              "hash": "d89528b4943d27029a2818f847c10c2cecc79fa9590f3cb1860459a5be7933eb",
+              "url": "https://files.pythonhosted.org/packages/6d/b7/5018c44200c0d098ccc60b4ed49ab5c7db8b17cb457b5ac23d97584b33fe/pyzmq-25.1.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "58416db767787aedbfd57116714aad6c9ce57215ffa1c3758a52403f7c68cff5",
-              "url": "https://files.pythonhosted.org/packages/b7/cb/2a36d3eed310efb342fbb7b4adf6b05f46401c4b937154bd1c9b703314e0/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "c2b92812bd214018e50b6380ea3ac0c8bb01ac07fcc14c5f86a5bb25e74026e9",
+              "url": "https://files.pythonhosted.org/packages/7a/3b/a4ad590411a582254c188dd2a0df1404004edf9923672a6063c87a6eaf69/pyzmq-25.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "13bbe36da3f8aaf2b7ec12696253c0bf6ffe05f4507985a8844a1081db6ec22d",
-              "url": "https://files.pythonhosted.org/packages/bb/80/ae792378f98d6d0e39c975c334603d3d2535f7897707fe91f31d37f94fdb/pyzmq-25.1.0-cp311-cp311-macosx_10_15_universal2.whl"
+              "hash": "d20a0ddb3e989e8807d83225a27e5c2eb2260eaa851532086e9e0fa0d5287d83",
+              "url": "https://files.pythonhosted.org/packages/a7/51/498d0aef7d15f43bfbebf5d8e4edc65148b8f99309f19060ee5adc69f8ed/pyzmq-25.1.1-cp311-cp311-macosx_10_15_universal2.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "d6128d431b8dfa888bf51c22a04d48bcb3d64431caf02b3cb943269f17fd2994",
-              "url": "https://files.pythonhosted.org/packages/fa/40/7729719e38324e5e9f2e77f6131fc253f063a3741eab170ef610196098e8/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_aarch64.whl"
+              "hash": "047a640f5c9c6ade7b1cc6680a0e28c9dd5a0825135acbd3569cc96ea00b2505",
+              "url": "https://files.pythonhosted.org/packages/ae/ce/665930104926cd165f9ce8de74b796b6de0bbf0bf030341600aa65dc9d7d/pyzmq-25.1.1-cp311-cp311-musllinux_1_1_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "2b15247c49d8cbea695b321ae5478d47cffd496a2ec5ef47131a9e79ddd7e46c",
-              "url": "https://files.pythonhosted.org/packages/fd/12/0324dcb2554cd3f2ebb851ddbfbac27c4bb384394ba4a8978dec093fe71d/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_i686.whl"
+              "hash": "e1c1be77bc5fb77d923850f82e55a928f8638f64a61f00ff18a67c7404faf008",
+              "url": "https://files.pythonhosted.org/packages/bb/3f/f60729ab68d0455db2f923ae8d4cb56c587054689e4ceece35aa3c29e471/pyzmq-25.1.1-cp311-cp311-macosx_10_9_x86_64.whl"
             }
           ],
           "project_name": "pyzmq",
@@ -495,7 +495,7 @@
             "cffi; implementation_name == \"pypy\""
           ],
           "requires_python": ">=3.6",
-          "version": "25.1.0"
+          "version": "25.1.1"
         },
         {
           "artifacts": [
@@ -612,7 +612,7 @@
   "requirements": [
     "fastapi",
     "pytest",
-    "pyzmq==25.1.0",
+    "pyzmq==25.1.1",
     "typing",
     "uvicorn"
   ],

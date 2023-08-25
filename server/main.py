@@ -7,7 +7,7 @@ def log_it(input):
     print(input, flush=True)
 
 def main():
-  log_it("Starting server!!!")
+  log_it("Starting server!")
   context = zmq.Context()
   log_it("Created context")
   socket = context.socket(zmq.REP)
