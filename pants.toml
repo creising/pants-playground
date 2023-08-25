@@ -17,8 +17,8 @@ root_patterns = ["/"]
 interpreter_constraints = ["==3.11.4"]
 enable_resolves = true
 
-[python.resolves_to_no_binary]
-__default__ = ["pyzmq"]
+# [python.resolves_to_no_binary]
+# __default__ = ["pyzmq"]
 
 [flake8]
 args = ["--output-file=reports/report.txt"]

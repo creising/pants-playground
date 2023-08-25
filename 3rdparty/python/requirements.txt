@@ -1,5 +1,5 @@
 uvicorn
-pyzmq --no-binary :all:
+pyzmq==25.1.0
 typing
 fastapi
 pytest

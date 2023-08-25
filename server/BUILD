@@ -22,6 +22,15 @@ docker_image(name="container")
 pex_binary(
   name="binary",
   entry_point="server.main:main",
+  layout = "packed",
+  execution_mode = "venv",
+  # complete_platforms = [
+  #     "cp311-cp311-manylinux_2_31_aarch64"
+  # ],
+  platforms=[
+    'current',
+    'linux-x86_64-cp-3.7.5-m',
+  ]
   # shebang="#!/usr/bin/env python3",
   # Enable hot re-load
   # restartable=True

@@ -11,16 +11,14 @@
 //   "generated_with_requirements": [
 //     "fastapi",
 //     "pytest",
-//     "pyzmq",
+//     "pyzmq==25.1.0",
 //     "typing",
 //     "uvicorn"
 //   ],
 //   "manylinux": "manylinux2014",
 //   "requirement_constraints": [],
 //   "only_binary": [],
-//   "no_binary": [
-//     "pyzmq"
-//   ]
+//   "no_binary": []
 // }
 // --- END PANTS LOCKFILE METADATA ---
 
@@ -443,8 +441,53 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "259c22485b71abacdfa8bf79720cd7bcf4b9d128b30ea554f01ae71fdbfdaa23",
-              "url": "https://files.pythonhosted.org/packages/3f/7c/69d31a75a3fe9bbab349de7935badac61396f22baf4ab53179a8d940d58e/pyzmq-25.1.1.tar.gz"
+              "hash": "442d3efc77ca4d35bee3547a8e08e8d4bb88dadb54a8377014938ba98d2e074a",
+              "url": "https://files.pythonhosted.org/packages/04/15/b8ab292f0b74e0440547185fb67167c87454a2b3be429d64de569f7142a2/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4a983c8694667fd76d793ada77fd36c8317e76aa66eec75be2653cef2ea72883",
+              "url": "https://files.pythonhosted.org/packages/26/bb/80535157e8811095901f98688839092afb6dcaf2ff154aa8fa2e575f540d/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "69511d604368f3dc58d4be1b0bad99b61ee92b44afe1cd9b7bd8c5e34ea8248a",
+              "url": "https://files.pythonhosted.org/packages/5a/b6/3c2ddd09aa24352e4f6aade53e9b9a1816c0774c844f11b1a2f508ddc0be/pyzmq-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "80c41023465d36280e801564a69cbfce8ae85ff79b080e1913f6e90481fb8957",
+              "url": "https://files.pythonhosted.org/packages/64/9c/2b2614b0b86ff703b3a33ea5e044923bd7d100adc8c829d579a9b71ea9e7/pyzmq-25.1.0.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "cad9545f5801a125f162d09ec9b724b7ad9b6440151b89645241d0120e119dcc",
+              "url": "https://files.pythonhosted.org/packages/66/f5/15db4c297957f049cd4dcd35eb7fbe9098a72489e0abdb289c529d7327cc/pyzmq-25.1.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "332616f95eb400492103ab9d542b69d5f0ff628b23129a4bc0a2fd48da6e4e0b",
+              "url": "https://files.pythonhosted.org/packages/7c/65/bccec1eae7c0e089d90648f350e6c2ff40ccb8c6d1b929548f4cd304b1f7/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "58416db767787aedbfd57116714aad6c9ce57215ffa1c3758a52403f7c68cff5",
+              "url": "https://files.pythonhosted.org/packages/b7/cb/2a36d3eed310efb342fbb7b4adf6b05f46401c4b937154bd1c9b703314e0/pyzmq-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "13bbe36da3f8aaf2b7ec12696253c0bf6ffe05f4507985a8844a1081db6ec22d",
+              "url": "https://files.pythonhosted.org/packages/bb/80/ae792378f98d6d0e39c975c334603d3d2535f7897707fe91f31d37f94fdb/pyzmq-25.1.0-cp311-cp311-macosx_10_15_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d6128d431b8dfa888bf51c22a04d48bcb3d64431caf02b3cb943269f17fd2994",
+              "url": "https://files.pythonhosted.org/packages/fa/40/7729719e38324e5e9f2e77f6131fc253f063a3741eab170ef610196098e8/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2b15247c49d8cbea695b321ae5478d47cffd496a2ec5ef47131a9e79ddd7e46c",
+              "url": "https://files.pythonhosted.org/packages/fd/12/0324dcb2554cd3f2ebb851ddbfbac27c4bb384394ba4a8978dec093fe71d/pyzmq-25.1.0-cp311-cp311-musllinux_1_1_i686.whl"
             }
           ],
           "project_name": "pyzmq",
@@ -452,7 +495,7 @@
             "cffi; implementation_name == \"pypy\""
           ],
           "requires_python": ">=3.6",
-          "version": "25.1.1"
+          "version": "25.1.0"
         },
         {
           "artifacts": [
@@ -569,7 +612,7 @@
   "requirements": [
     "fastapi",
     "pytest",
-    "pyzmq",
+    "pyzmq==25.1.0",
     "typing",
     "uvicorn"
   ],

@@ -14,9 +14,7 @@
 //   "manylinux": "manylinux2014",
 //   "requirement_constraints": [],
 //   "only_binary": [],
-//   "no_binary": [
-//     "pyzmq"
-//   ]
+//   "no_binary": []
 // }
 // --- END PANTS LOCKFILE METADATA ---
 
