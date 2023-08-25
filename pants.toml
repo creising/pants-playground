@@ -22,3 +22,8 @@ args = ["--output-file=reports/report.txt"]
 
 [docker]
 env_vars = ["HOME", "USER", "PATH", "GIT_COMMIT"]
+
+[cli.alias]
+green = "fmt lint check"
+client = 'run --docker-run-args="-p 8080:8080 --network=pants-bridge --name client-container -d" src/docker/client:client-container'
+server = 'run --docker-run-args="--network=pants-bridge --name server-container -d" src/docker/server:server-container'
