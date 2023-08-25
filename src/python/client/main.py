@@ -5,11 +5,7 @@ from fastapi import FastAPI
 import uvicorn
 
 # from logger import log_it
-
-
-def log_it(x):
-    print(x)
-
+from src.python.utils.logit import log_it
 
 log = logging.getLogger("my-api")
 
