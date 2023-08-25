@@ -1,5 +1,3 @@
-# Define a self-contained, relocatable binary that contains a complete Python environment
-# (i.e., code and dependencies but not the interpreter itself). See https://pex.readthedocs.io
 python_sources()
 
 pex_binary(

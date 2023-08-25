@@ -4,7 +4,6 @@ import uvicorn
 import zmq
 from fastapi import FastAPI
 
-# from logger import log_it
 from src.python.utils.logit import log_it
 
 log = logging.getLogger("my-api")
