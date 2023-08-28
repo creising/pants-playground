@@ -8,6 +8,7 @@ backend_packages = [
   "pants.backend.python.lint.isort",
   "pants.backend.python.lint.flake8",
   'pants.backend.docker',
+  "pants.backend.shell",
 ]
 
 [source]
@@ -25,5 +26,6 @@ env_vars = ["HOME", "USER", "PATH", "GIT_COMMIT"]
 
 [cli.alias]
 green = "fmt lint check"
-client = 'run --docker-run-args="-p 8080:8080 --network=pants-bridge --name client-container -d" src/docker/client:client-container'
-server = 'run --docker-run-args="--network=pants-bridge --name server-container -d" src/docker/server:server-container'
+container-network-create = 'create-dev-network'
+container-client = 'run src/docker/client:run-container'
+container-server = 'run src/docker/server:run-container'
