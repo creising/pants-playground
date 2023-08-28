@@ -7,12 +7,12 @@ python_tests(
 
 pex_binary(
   name="binary",
-  entry_point="src.python.client.main",
+  entry_point="src.python.api.main",
 )
 
 pex_binary(
   name="binary-linux",
-  entry_point="src.python.client.main",
+  entry_point="src.python.api.main",
   layout = "packed",
   execution_mode = "venv",
   complete_platforms = ["src/python:platforms"]

@@ -26,6 +26,8 @@ env_vars = ["HOME", "USER", "PATH", "GIT_COMMIT"]
 
 [cli.alias]
 green = "fmt lint check"
+local-api = "run src/python/api:binary"
+local-processor = "run src/python/processor:binary"
 container-network-create = 'create-dev-network'
-container-client = 'run src/docker/client:run-container'
-container-server = 'run src/docker/server:run-container'
+container-api = 'run src/docker/api:run-container'
+container-processor = 'run src/docker/processor:run-container'
