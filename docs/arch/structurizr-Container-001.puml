@@ -1,0 +1,51 @@
+@startuml
+set separator none
+title Demo App - Containers
+
+left to right direction
+
+skinparam {
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+
+hide stereotype
+
+skinparam rectangle<<DemoApp.API>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+  roundCorner 20
+  shadowing false
+}
+skinparam rectangle<<DemoApp.FactService>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+  roundCorner 20
+  shadowing false
+}
+skinparam person<<User>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052e56
+  shadowing false
+}
+skinparam rectangle<<DemoApp>> {
+  BorderColor #0b4884
+  FontColor #0b4884
+  shadowing false
+}
+
+person "==User\n<size:10>[Person]</size>\n\nThe user" <<User>> as User
+
+rectangle "Demo App\n<size:10>[Software System]</size>" <<DemoApp>> {
+  rectangle "==API\n<size:10>[Container]</size>" <<DemoApp.API>> as DemoApp.API
+  rectangle "==Fact Service\n<size:10>[Container]</size>" <<DemoApp.FactService>> as DemoApp.FactService
+}
+
+User .[#707070,thickness=2].> DemoApp.API : "<color:#707070>Uses"
+DemoApp.API .[#707070,thickness=2].> DemoApp.FactService : "<color:#707070>Requets facts"
+@enduml
