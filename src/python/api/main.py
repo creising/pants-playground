@@ -1,12 +1,12 @@
 import logging
+import os
+import random
 
 import uvicorn
 import zmq
 from fastapi import FastAPI
 
 from src.python.utils.logit import log_it
-import random
-import os
 
 log = logging.getLogger("my-api")
 
@@ -33,11 +33,6 @@ def read_root():
     log_it("Got message")
     return {"message": message}
 
-@app.get("/test")
-def read_root():
-    log_it("Calling type check")
-    message = "It worked!"
-    return {"message": message}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8080, log_level="info")

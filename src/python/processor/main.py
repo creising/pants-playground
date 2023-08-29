@@ -12,7 +12,7 @@ random_facts = [
     "Cows have best friends and can become stressed when they're separated from them.",
     "Bananas are berries, but strawberries are not true berries – they're considered aggregate fruits.",
     "There are more than 1,500 active volcanoes in the world, with around 50 to 70 erupting each year.",
-    "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."
+    "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
 ]
 
 
