@@ -26,8 +26,11 @@ env_vars = ["HOME", "USER", "PATH", "GIT_COMMIT"]
 
 [cli.alias]
 green = "fmt lint check"
+# Run the binaries locally on the machine
 local-api = "run src/python/api:binary"
 local-processor = "run src/python/processor:binary"
+# Creates the docker network needed for the containers to communicate
 container-network-create = 'create-dev-network'
+## These targets run the containerized verison of the application
 container-api = 'run src/docker/api:run-container'
 container-processor = 'run src/docker/processor:run-container'
